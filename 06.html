@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            background-color: #db5a3a;
+            text-align: center;
+            padding: 2rem;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+        .sidebar {
+            background-color: #8bd48b;
+            width: 10em;
+            padding: 1rem;
+            top: 3.5rem;
+            bottom: 0;
+        }
+
+        .main {
+            flex: 1;
+            overflow-y: auto;
+        }
+        .section-1 {
+            background-color: #9e63e2;
+            flex: 1;
+            padding: 3rem;
+            height: 20em; 
+            box-sizing: border-box;
+        }
+        .section-2 {
+            background-color: #dbdb17;
+		
+            flex: 1;
+            padding: 3rem;
+            height: 20em; 
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="sidebar"></div>
+        <div class="main">
+            <div class="section-1"></div>
+            <div class="section-2"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, expedita optio. Dolorem vel laboriosam mollitia obcaecati at? Quas sequi, modi fugit nesciunt sapiente tempore accusantium itaque necessitatibus iure laudantium maiores.</p></div>
+        </div>
+    </div>
+</body>
+</html>
